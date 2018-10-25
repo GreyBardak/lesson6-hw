@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="SkillUP Homework 6">
+        <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+        <meta name="author" content="Дмитрий Тырзиу">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+    </head>
+    <body>
+        <form action="" method="POST">
+            <fieldset>
+            <div>
+                <label for="name"> Your Name (required) </label>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <label for="email"> Your Email (required) </label>
+                <input type="email" name="email" id="email" placeholder="Your Email">
+            </div>
+            <div>
+                    <legend>What's this all about?</legend>
+                    <label for="hello">Say Hello</label>
+                    <input type="checkbox" name="Say Hello" id="hello">
+                    <label for="complain">Complain</label>
+                    <input type="checkbox" name="Complain" id="complain">
+                    <label for="share">Share a joke</label>
+                    <input type="checkbox" name="Share a joke" id="share">
+            </div>
+            <div>
+                <label for="Subject">Subject</label>
+                <p>
+                <select name="Subject" id="Subject">
+                    <option value="Subject">Subject1</option>
+                    <option value="Subject">Subject2</option>
+                    <option value="Subject">Subject3</option>
+                </select>
+                </p>
+            </div>
+            <div>
+                <p>Your message</p>
+                <textarea cols="50%" rows="10">
+
+                </textarea>
+            </div>
+            <div>
+                <input type="submit" value="SEND">
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

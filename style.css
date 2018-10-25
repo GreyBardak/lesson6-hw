@@ -1,0 +1,10 @@
+form{
+    display: block;
+    width: 30%;
+}
+input,
+select,
+textarea{
+  display: block;
+  margin: 0 0 1rem;
+}
